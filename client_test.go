@@ -30,9 +30,9 @@ import (
 	"testing"
 	"time"
 
-	"cirello.io/pglock"
 	_ "github.com/jackc/pgx/v4/stdlib"
 	"github.com/lib/pq"
+	"github.com/prabudzak/pglock"
 	"golang.org/x/sync/errgroup"
 )
 
